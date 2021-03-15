@@ -3,6 +3,8 @@
 
 `timescale 1ns/1ns
 
+`include "FlipFlop.v"
+
 module TCMP(
     input clk, 
     input rst,

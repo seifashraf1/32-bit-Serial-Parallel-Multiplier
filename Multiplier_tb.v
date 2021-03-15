@@ -2,6 +2,7 @@
 // author: @seifashraf1
 // Testbench for Multiplier
 
+
 `timescale 1ns/1ns
 
 module Multiplier_tb;
@@ -30,76 +31,98 @@ module Multiplier_tb;
 		.done(done)
 	);
 
-  /*wire [63:0] goldenProd;
+  // reg [63:0] goldenProd;
   
   
-  assign goldenProd = MP*MC;
+  // always @ (posedge start)begin
+  //     goldenProd = MP*MC;
+  // end  
   
-  wire error;
-  assign error = (goldenProd != P);
+  // wire error;
+  // assign error = (goldenProd != P);
   
-  integer i,j;*/
-  
-// 	initial clk=0;
-//     always begin
-//         #10
-//         clk=~clk;
-//     end
-    
-  	initial begin 
-// 	$dumpfile("./hi.vcd");
-// 	$dumpvars(0,dtb);
+  // integer i,j;
 
-	rst=0; start=0;MP=15; MC=7; 
-	#50 rst=1;
-	#20 start=1;rst=0;
-	#80 start = 0;
-	
-	#10000 $finish;
-	end 
-  
-  	initial begin
-	clk=1;
-	forever #10 clk= ~clk;   
-	end
+  initial clk=1;
+    always begin
+        #10
+        clk=~clk;
+  end
+
+	initial begin
+	$dumpfile("./Multiplier.vcd");
+ 	$dumpvars(0,Multiplier_tb);
+  end 
+
+// event reset_trigger; 
+// event reset_done; 
 
 
-    // initial begin
-    //     start = 0;
-    //     clk = 0;
-    //     rst = 0;
-        
-    //     #10
-        
-    //     clk = 1;
-    //     rst = 1;
-        
-    //     #10
-        
-    //     clk = 0;
-    //     rst = 0;
-        
-        /*for (i=-2147483648; i<2147483648; i=i+1) begin
-            for (j=-2147483648; j<2147483648; j=j+1) begin
+ 
+
+
+
+// initial begin 
+// 	#1 -> reset_trigger; 
+// end
+
+// always @(negedge done) begin
+// 	-> reset_trigger;
+// end
+
+// always @(reset_trigger) begin
+// 	 @(negedge clk);
+//    	 rst=1; start=1; 
+//      @(negedge clk);
+//    	 rst=0;  start=0; 
+// end
+
+  initial begin
+	start = 0;
+  rst = 0;
+  MP = 15;
+  MC = 7;
+  #50
+  rst = 1;
+  #20
+  start = 1;
+  rst = 0;
+  #80
+  start = 0;
+
+  #10000 $finish;
+
+
+	//Inputs initialization
+	// 	rst=0; start=0;
+  //   MP=15; MC=7; 
+	// #50 rst=1;
+	// #20 start=1;rst=0;
+	// #80 start = 0;
+//2147483648
+      /*for (i=1; i<10; i=i+1) begin
+            for (j=1; j<10; j=j+1) begin
+                  // start = 0;
+                  // rst = 0;
                   MP = i;
                   MC = j;
-                  start = 1;
-                  #10
-                  start = 0;
-                  #800
+                  #100000000000
+                  // rst = 1;
+                  // #10
+                  // start = 1;
+                  // rst = 0;
+                  // #80
                   if (error) begin
                     $display("Error: i=%d j=%d prod=%d\n", i, j, goldenProd);
-                    $finish 
+                    $finish; 
                   end 
+                  
             end 
-        end 
-                
-    end*/
+      end*/
     
-    // initial begin
-    //     MP = 5;
-    //     MC=  10;
-        
-    // end
+    
+    $display("Success");
+
+	end
 
 endmodule

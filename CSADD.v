@@ -1,6 +1,8 @@
 // file: CSADD.v
 // author: @seifashraf1
 
+`include "fullAdder.v"
+
 `timescale 1ns/1ns
 
 module CSADD(

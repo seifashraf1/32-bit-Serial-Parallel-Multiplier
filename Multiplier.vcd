@@ -1,0 +1,4143 @@
+$date
+	Mon Mar 15 18:59:18 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Multiplier_tb $end
+$var wire 1 ! done $end
+$var wire 64 " P [63:0] $end
+$var reg 32 # MC [31:0] $end
+$var reg 32 $ MP [31:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rst $end
+$var reg 1 ' start $end
+$scope module uut $end
+$var wire 32 ( MC [31:0] $end
+$var wire 32 ) MP [31:0] $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ' start $end
+$var wire 1 * eP $end
+$var wire 32 + XY [31:0] $end
+$var wire 31 , PP [31:1] $end
+$var reg 32 - MP_stable [31:0] $end
+$var reg 64 . P [63:0] $end
+$var reg 7 / count [6:0] $end
+$var reg 1 ! done $end
+$scope begin genblk1[1] $end
+$scope module csadd $end
+$var wire 1 0 X $end
+$var wire 1 1 Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 2 y2 $end
+$var wire 1 3 sum $end
+$var wire 1 4 Y2 $end
+$var wire 1 5 Y1 $end
+$scope module fa $end
+$var wire 1 0 a $end
+$var wire 1 1 b $end
+$var wire 1 5 sum $end
+$var wire 1 4 cout $end
+$var wire 1 2 cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 5 D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 3 Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 4 D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 2 Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$scope module csadd $end
+$var wire 1 6 X $end
+$var wire 1 7 Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 8 y2 $end
+$var wire 1 9 sum $end
+$var wire 1 : Y2 $end
+$var wire 1 ; Y1 $end
+$scope module fa $end
+$var wire 1 6 a $end
+$var wire 1 7 b $end
+$var wire 1 ; sum $end
+$var wire 1 : cout $end
+$var wire 1 8 cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 ; D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 9 Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 : D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 8 Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$scope module csadd $end
+$var wire 1 < X $end
+$var wire 1 = Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 > y2 $end
+$var wire 1 ? sum $end
+$var wire 1 @ Y2 $end
+$var wire 1 A Y1 $end
+$scope module fa $end
+$var wire 1 < a $end
+$var wire 1 = b $end
+$var wire 1 A sum $end
+$var wire 1 @ cout $end
+$var wire 1 > cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 A D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 ? Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 @ D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 > Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$scope module csadd $end
+$var wire 1 B X $end
+$var wire 1 C Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 D y2 $end
+$var wire 1 E sum $end
+$var wire 1 F Y2 $end
+$var wire 1 G Y1 $end
+$scope module fa $end
+$var wire 1 B a $end
+$var wire 1 C b $end
+$var wire 1 G sum $end
+$var wire 1 F cout $end
+$var wire 1 D cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 G D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 E Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 F D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 D Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$scope module csadd $end
+$var wire 1 H X $end
+$var wire 1 I Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 J y2 $end
+$var wire 1 K sum $end
+$var wire 1 L Y2 $end
+$var wire 1 M Y1 $end
+$scope module fa $end
+$var wire 1 H a $end
+$var wire 1 I b $end
+$var wire 1 M sum $end
+$var wire 1 L cout $end
+$var wire 1 J cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 M D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 K Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 L D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 J Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$scope module csadd $end
+$var wire 1 N X $end
+$var wire 1 O Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 P y2 $end
+$var wire 1 Q sum $end
+$var wire 1 R Y2 $end
+$var wire 1 S Y1 $end
+$scope module fa $end
+$var wire 1 N a $end
+$var wire 1 O b $end
+$var wire 1 S sum $end
+$var wire 1 R cout $end
+$var wire 1 P cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 S D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 Q Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 R D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 P Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$scope module csadd $end
+$var wire 1 T X $end
+$var wire 1 U Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 V y2 $end
+$var wire 1 W sum $end
+$var wire 1 X Y2 $end
+$var wire 1 Y Y1 $end
+$scope module fa $end
+$var wire 1 T a $end
+$var wire 1 U b $end
+$var wire 1 Y sum $end
+$var wire 1 X cout $end
+$var wire 1 V cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 Y D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 W Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 X D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 V Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[8] $end
+$scope module csadd $end
+$var wire 1 Z X $end
+$var wire 1 [ Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 \ y2 $end
+$var wire 1 ] sum $end
+$var wire 1 ^ Y2 $end
+$var wire 1 _ Y1 $end
+$scope module fa $end
+$var wire 1 Z a $end
+$var wire 1 [ b $end
+$var wire 1 _ sum $end
+$var wire 1 ^ cout $end
+$var wire 1 \ cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 _ D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 ] Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 ^ D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 \ Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[9] $end
+$scope module csadd $end
+$var wire 1 ` X $end
+$var wire 1 a Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 b y2 $end
+$var wire 1 c sum $end
+$var wire 1 d Y2 $end
+$var wire 1 e Y1 $end
+$scope module fa $end
+$var wire 1 ` a $end
+$var wire 1 a b $end
+$var wire 1 e sum $end
+$var wire 1 d cout $end
+$var wire 1 b cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 e D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 c Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 d D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 b Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[10] $end
+$scope module csadd $end
+$var wire 1 f X $end
+$var wire 1 g Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 h y2 $end
+$var wire 1 i sum $end
+$var wire 1 j Y2 $end
+$var wire 1 k Y1 $end
+$scope module fa $end
+$var wire 1 f a $end
+$var wire 1 g b $end
+$var wire 1 k sum $end
+$var wire 1 j cout $end
+$var wire 1 h cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 k D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 i Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 j D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 h Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[11] $end
+$scope module csadd $end
+$var wire 1 l X $end
+$var wire 1 m Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 n y2 $end
+$var wire 1 o sum $end
+$var wire 1 p Y2 $end
+$var wire 1 q Y1 $end
+$scope module fa $end
+$var wire 1 l a $end
+$var wire 1 m b $end
+$var wire 1 q sum $end
+$var wire 1 p cout $end
+$var wire 1 n cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 q D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 o Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 p D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 n Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[12] $end
+$scope module csadd $end
+$var wire 1 r X $end
+$var wire 1 s Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 t y2 $end
+$var wire 1 u sum $end
+$var wire 1 v Y2 $end
+$var wire 1 w Y1 $end
+$scope module fa $end
+$var wire 1 r a $end
+$var wire 1 s b $end
+$var wire 1 w sum $end
+$var wire 1 v cout $end
+$var wire 1 t cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 w D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 u Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 v D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 t Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[13] $end
+$scope module csadd $end
+$var wire 1 x X $end
+$var wire 1 y Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 z y2 $end
+$var wire 1 { sum $end
+$var wire 1 | Y2 $end
+$var wire 1 } Y1 $end
+$scope module fa $end
+$var wire 1 x a $end
+$var wire 1 y b $end
+$var wire 1 } sum $end
+$var wire 1 | cout $end
+$var wire 1 z cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 } D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 { Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 | D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 z Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[14] $end
+$scope module csadd $end
+$var wire 1 ~ X $end
+$var wire 1 !" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 "" y2 $end
+$var wire 1 #" sum $end
+$var wire 1 $" Y2 $end
+$var wire 1 %" Y1 $end
+$scope module fa $end
+$var wire 1 ~ a $end
+$var wire 1 !" b $end
+$var wire 1 %" sum $end
+$var wire 1 $" cout $end
+$var wire 1 "" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 %" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 #" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 $" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 "" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[15] $end
+$scope module csadd $end
+$var wire 1 &" X $end
+$var wire 1 '" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 (" y2 $end
+$var wire 1 )" sum $end
+$var wire 1 *" Y2 $end
+$var wire 1 +" Y1 $end
+$scope module fa $end
+$var wire 1 &" a $end
+$var wire 1 '" b $end
+$var wire 1 +" sum $end
+$var wire 1 *" cout $end
+$var wire 1 (" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 +" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 )" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 *" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 (" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[16] $end
+$scope module csadd $end
+$var wire 1 ," X $end
+$var wire 1 -" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ." y2 $end
+$var wire 1 /" sum $end
+$var wire 1 0" Y2 $end
+$var wire 1 1" Y1 $end
+$scope module fa $end
+$var wire 1 ," a $end
+$var wire 1 -" b $end
+$var wire 1 1" sum $end
+$var wire 1 0" cout $end
+$var wire 1 ." cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 1" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 /" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 0" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 ." Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[17] $end
+$scope module csadd $end
+$var wire 1 2" X $end
+$var wire 1 3" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 4" y2 $end
+$var wire 1 5" sum $end
+$var wire 1 6" Y2 $end
+$var wire 1 7" Y1 $end
+$scope module fa $end
+$var wire 1 2" a $end
+$var wire 1 3" b $end
+$var wire 1 7" sum $end
+$var wire 1 6" cout $end
+$var wire 1 4" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 7" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 5" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 6" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 4" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[18] $end
+$scope module csadd $end
+$var wire 1 8" X $end
+$var wire 1 9" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 :" y2 $end
+$var wire 1 ;" sum $end
+$var wire 1 <" Y2 $end
+$var wire 1 =" Y1 $end
+$scope module fa $end
+$var wire 1 8" a $end
+$var wire 1 9" b $end
+$var wire 1 =" sum $end
+$var wire 1 <" cout $end
+$var wire 1 :" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 =" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 ;" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 <" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 :" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[19] $end
+$scope module csadd $end
+$var wire 1 >" X $end
+$var wire 1 ?" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 @" y2 $end
+$var wire 1 A" sum $end
+$var wire 1 B" Y2 $end
+$var wire 1 C" Y1 $end
+$scope module fa $end
+$var wire 1 >" a $end
+$var wire 1 ?" b $end
+$var wire 1 C" sum $end
+$var wire 1 B" cout $end
+$var wire 1 @" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 C" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 A" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 B" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 @" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[20] $end
+$scope module csadd $end
+$var wire 1 D" X $end
+$var wire 1 E" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 F" y2 $end
+$var wire 1 G" sum $end
+$var wire 1 H" Y2 $end
+$var wire 1 I" Y1 $end
+$scope module fa $end
+$var wire 1 D" a $end
+$var wire 1 E" b $end
+$var wire 1 I" sum $end
+$var wire 1 H" cout $end
+$var wire 1 F" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 I" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 G" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 H" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 F" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[21] $end
+$scope module csadd $end
+$var wire 1 J" X $end
+$var wire 1 K" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 L" y2 $end
+$var wire 1 M" sum $end
+$var wire 1 N" Y2 $end
+$var wire 1 O" Y1 $end
+$scope module fa $end
+$var wire 1 J" a $end
+$var wire 1 K" b $end
+$var wire 1 O" sum $end
+$var wire 1 N" cout $end
+$var wire 1 L" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 O" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 M" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 N" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 L" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[22] $end
+$scope module csadd $end
+$var wire 1 P" X $end
+$var wire 1 Q" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 R" y2 $end
+$var wire 1 S" sum $end
+$var wire 1 T" Y2 $end
+$var wire 1 U" Y1 $end
+$scope module fa $end
+$var wire 1 P" a $end
+$var wire 1 Q" b $end
+$var wire 1 U" sum $end
+$var wire 1 T" cout $end
+$var wire 1 R" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 U" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 S" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 T" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 R" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[23] $end
+$scope module csadd $end
+$var wire 1 V" X $end
+$var wire 1 W" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 X" y2 $end
+$var wire 1 Y" sum $end
+$var wire 1 Z" Y2 $end
+$var wire 1 [" Y1 $end
+$scope module fa $end
+$var wire 1 V" a $end
+$var wire 1 W" b $end
+$var wire 1 [" sum $end
+$var wire 1 Z" cout $end
+$var wire 1 X" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 [" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 Y" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 Z" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 X" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[24] $end
+$scope module csadd $end
+$var wire 1 \" X $end
+$var wire 1 ]" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ^" y2 $end
+$var wire 1 _" sum $end
+$var wire 1 `" Y2 $end
+$var wire 1 a" Y1 $end
+$scope module fa $end
+$var wire 1 \" a $end
+$var wire 1 ]" b $end
+$var wire 1 a" sum $end
+$var wire 1 `" cout $end
+$var wire 1 ^" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 a" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 _" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 `" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 ^" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[25] $end
+$scope module csadd $end
+$var wire 1 b" X $end
+$var wire 1 c" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 d" y2 $end
+$var wire 1 e" sum $end
+$var wire 1 f" Y2 $end
+$var wire 1 g" Y1 $end
+$scope module fa $end
+$var wire 1 b" a $end
+$var wire 1 c" b $end
+$var wire 1 g" sum $end
+$var wire 1 f" cout $end
+$var wire 1 d" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 g" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 e" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 f" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 d" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[26] $end
+$scope module csadd $end
+$var wire 1 h" X $end
+$var wire 1 i" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 j" y2 $end
+$var wire 1 k" sum $end
+$var wire 1 l" Y2 $end
+$var wire 1 m" Y1 $end
+$scope module fa $end
+$var wire 1 h" a $end
+$var wire 1 i" b $end
+$var wire 1 m" sum $end
+$var wire 1 l" cout $end
+$var wire 1 j" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 m" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 k" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 l" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 j" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[27] $end
+$scope module csadd $end
+$var wire 1 n" X $end
+$var wire 1 o" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 p" y2 $end
+$var wire 1 q" sum $end
+$var wire 1 r" Y2 $end
+$var wire 1 s" Y1 $end
+$scope module fa $end
+$var wire 1 n" a $end
+$var wire 1 o" b $end
+$var wire 1 s" sum $end
+$var wire 1 r" cout $end
+$var wire 1 p" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 s" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 q" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 r" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 p" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[28] $end
+$scope module csadd $end
+$var wire 1 t" X $end
+$var wire 1 u" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 v" y2 $end
+$var wire 1 w" sum $end
+$var wire 1 x" Y2 $end
+$var wire 1 y" Y1 $end
+$scope module fa $end
+$var wire 1 t" a $end
+$var wire 1 u" b $end
+$var wire 1 y" sum $end
+$var wire 1 x" cout $end
+$var wire 1 v" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 y" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 w" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 x" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 v" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[29] $end
+$scope module csadd $end
+$var wire 1 z" X $end
+$var wire 1 {" Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 |" y2 $end
+$var wire 1 }" sum $end
+$var wire 1 ~" Y2 $end
+$var wire 1 !# Y1 $end
+$scope module fa $end
+$var wire 1 z" a $end
+$var wire 1 {" b $end
+$var wire 1 !# sum $end
+$var wire 1 ~" cout $end
+$var wire 1 |" cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 !# D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 }" Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 ~" D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 |" Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[30] $end
+$scope module csadd $end
+$var wire 1 "# X $end
+$var wire 1 ## Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 $# y2 $end
+$var wire 1 %# sum $end
+$var wire 1 &# Y2 $end
+$var wire 1 '# Y1 $end
+$scope module fa $end
+$var wire 1 "# a $end
+$var wire 1 ## b $end
+$var wire 1 '# sum $end
+$var wire 1 &# cout $end
+$var wire 1 $# cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 '# D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 %# Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 &# D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 $# Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module csadd1 $end
+$var wire 1 (# X $end
+$var wire 1 )# Y $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 *# y2 $end
+$var wire 1 * sum $end
+$var wire 1 +# Y2 $end
+$var wire 1 ,# Y1 $end
+$scope module fa $end
+$var wire 1 (# a $end
+$var wire 1 )# b $end
+$var wire 1 ,# sum $end
+$var wire 1 +# cout $end
+$var wire 1 *# cin $end
+$upscope $end
+$scope module ff1 $end
+$var wire 1 ,# D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 * Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 +# D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 *# Q $end
+$upscope $end
+$upscope $end
+$scope module tcmp $end
+$var wire 1 -# A $end
+$var wire 1 % clk $end
+$var wire 1 .# d1 $end
+$var wire 1 /# d2 $end
+$var wire 1 & rst $end
+$var wire 1 0# Z $end
+$var wire 1 1# S $end
+$scope module ff1 $end
+$var wire 1 .# D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 1# Q $end
+$upscope $end
+$scope module ff2 $end
+$var wire 1 /# D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 0# Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x1#
+x0#
+x/#
+x.#
+0-#
+x,#
+x+#
+x*#
+x)#
+x(#
+x'#
+x&#
+x%#
+x$#
+x##
+0"#
+x!#
+x~"
+x}"
+x|"
+x{"
+0z"
+xy"
+xx"
+xw"
+xv"
+xu"
+0t"
+xs"
+xr"
+xq"
+xp"
+xo"
+0n"
+xm"
+xl"
+xk"
+xj"
+xi"
+0h"
+xg"
+xf"
+xe"
+xd"
+xc"
+0b"
+xa"
+x`"
+x_"
+x^"
+x]"
+0\"
+x["
+xZ"
+xY"
+xX"
+xW"
+0V"
+xU"
+xT"
+xS"
+xR"
+xQ"
+0P"
+xO"
+xN"
+xM"
+xL"
+xK"
+0J"
+xI"
+xH"
+xG"
+xF"
+xE"
+0D"
+xC"
+xB"
+xA"
+x@"
+x?"
+0>"
+x="
+x<"
+x;"
+x:"
+x9"
+08"
+x7"
+x6"
+x5"
+x4"
+x3"
+02"
+x1"
+x0"
+x/"
+x."
+x-"
+0,"
+x+"
+x*"
+x)"
+x("
+x'"
+0&"
+x%"
+x$"
+x#"
+x""
+x!"
+0~
+x}
+x|
+x{
+xz
+xy
+0x
+xw
+xv
+xu
+xt
+xs
+0r
+xq
+xp
+xo
+xn
+xm
+0l
+xk
+xj
+xi
+xh
+xg
+0f
+xe
+xd
+xc
+xb
+xa
+0`
+x_
+x^
+x]
+x\
+x[
+0Z
+xY
+xX
+xW
+xV
+xU
+0T
+xS
+xR
+xQ
+xP
+xO
+0N
+xM
+xL
+xK
+xJ
+xI
+0H
+xG
+xF
+xE
+xD
+xC
+0B
+xA
+x@
+x?
+x>
+x=
+0<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+bx /
+bx .
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -
+bx ,
+b0xxx +
+x*
+b1111 )
+b111 (
+0'
+0&
+1%
+b1111 $
+b111 #
+bx "
+0!
+$end
+#10
+0%
+#20
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -
+1%
+#30
+0%
+#40
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxx -
+1%
+#50
+0'#
+0&#
+0A
+0@
+0G
+0F
+0M
+0L
+0S
+0R
+0Y
+0X
+0_
+0^
+0e
+0d
+0k
+0j
+0q
+0p
+0w
+0v
+0}
+0|
+0%"
+0$"
+0+"
+0*"
+01"
+00"
+07"
+06"
+0="
+0<"
+0C"
+0B"
+0I"
+0H"
+0O"
+0N"
+0U"
+0T"
+0["
+0Z"
+0a"
+0`"
+0g"
+0f"
+0m"
+0l"
+0s"
+0r"
+0y"
+0x"
+0!#
+0~"
+0/#
+0.#
+0##
+0)#
+01
+07
+0=
+0C
+0I
+0O
+0U
+0[
+0a
+0g
+0m
+0s
+0y
+0!"
+0'"
+0-"
+03"
+09"
+0?"
+0E"
+0K"
+0Q"
+0W"
+0]"
+0c"
+0i"
+0o"
+0u"
+0{"
+0*#
+0*
+00#
+01#
+02
+03
+08
+09
+0>
+0?
+0D
+0E
+0J
+0K
+0P
+0Q
+0V
+0W
+0\
+0]
+0b
+0c
+0h
+0i
+0n
+0o
+0t
+0u
+0z
+0{
+0""
+0#"
+0("
+0)"
+0."
+0/"
+04"
+05"
+0:"
+0;"
+0@"
+0A"
+0F"
+0G"
+0L"
+0M"
+0R"
+0S"
+0X"
+0Y"
+0^"
+0_"
+0d"
+0e"
+0j"
+0k"
+0p"
+0q"
+0v"
+0w"
+0|"
+0}"
+0$#
+b0 ,
+0%#
+b0 /
+bx "
+bx .
+0%
+1&
+#60
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+1%
+#70
+1;
+0:
+15
+04
+1,#
+0+#
+16
+10
+1(#
+b111 +
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1 /
+b1111 -
+0%
+0&
+1'
+#80
+0,#
+1+#
+05
+14
+1)#
+11
+1*
+13
+b11 ,
+19
+b111 -
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10 /
+1%
+#90
+0%
+#100
+0)#
+15
+0,#
+b10 ,
+03
+12
+0*
+1*#
+b11 -
+b1000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11 /
+1%
+#110
+0%
+#120
+1,#
+1)#
+b11 ,
+13
+b1 -
+b1000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b100 /
+1%
+#130
+0%
+#140
+0;
+05
+0,#
+06
+00
+0(#
+b0 +
+1*
+b0 -
+b1000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b101 /
+1%
+#150
+0%
+0'
+#160
+1,#
+0+#
+15
+04
+0)#
+01
+0*
+03
+b0 ,
+09
+b1001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b110 /
+1%
+#170
+0%
+#180
+1)#
+05
+1,#
+b1 ,
+13
+02
+1*
+0*#
+b1001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b111 /
+1%
+#190
+0%
+#200
+0,#
+0)#
+b0 ,
+03
+b101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1000 /
+1%
+#210
+0%
+#220
+0*
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1001 /
+1%
+#230
+0%
+#240
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1010 /
+1%
+#250
+0%
+#260
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1011 /
+1%
+#270
+0%
+#280
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1100 /
+1%
+#290
+0%
+#300
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1101 /
+1%
+#310
+0%
+#320
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1110 /
+1%
+#330
+0%
+#340
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b1111 /
+1%
+#350
+0%
+#360
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10000 /
+1%
+#370
+0%
+#380
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10001 /
+1%
+#390
+0%
+#400
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10010 /
+1%
+#410
+0%
+#420
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10011 /
+1%
+#430
+0%
+#440
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10100 /
+1%
+#450
+0%
+#460
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10101 /
+1%
+#470
+0%
+#480
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10110 /
+1%
+#490
+0%
+#500
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b10111 /
+1%
+#510
+0%
+#520
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11000 /
+1%
+#530
+0%
+#540
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11001 /
+1%
+#550
+0%
+#560
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11010 /
+1%
+#570
+0%
+#580
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11011 /
+1%
+#590
+0%
+#600
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11100 /
+1%
+#610
+0%
+#620
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11101 /
+1%
+#630
+0%
+#640
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11110 /
+1%
+#650
+0%
+#660
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b11111 /
+1%
+#670
+0%
+#680
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b100000 /
+1%
+#690
+0%
+#700
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b100001 /
+1%
+#710
+0%
+#720
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b100010 /
+1%
+#730
+0%
+#740
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b100011 /
+1%
+#750
+0%
+#760
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxxx .
+b100100 /
+1%
+#770
+0%
+#780
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxxx .
+b100101 /
+1%
+#790
+0%
+#800
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxxx .
+b100110 /
+1%
+#810
+0%
+#820
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxxx .
+b100111 /
+1%
+#830
+0%
+#840
+b1101001000xxxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxxx .
+b101000 /
+1%
+#850
+0%
+#860
+b1101001000xxxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxxx .
+b101001 /
+1%
+#870
+0%
+#880
+b1101001000xxxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxxx .
+b101010 /
+1%
+#890
+0%
+#900
+b1101001000xxxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxxx .
+b101011 /
+1%
+#910
+0%
+#920
+b1101001000xxxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxxx .
+b101100 /
+1%
+#930
+0%
+#940
+b1101001000xxxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxxx .
+b101101 /
+1%
+#950
+0%
+#960
+b1101001000xxxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxxx .
+b101110 /
+1%
+#970
+0%
+#980
+b1101001000xxxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxxx .
+b101111 /
+1%
+#990
+0%
+#1000
+b1101001000xxxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxxx .
+b110000 /
+1%
+#1010
+0%
+#1020
+b1101001000xxxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxxx .
+b110001 /
+1%
+#1030
+0%
+#1040
+b1101001000xxxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxxx .
+b110010 /
+1%
+#1050
+0%
+#1060
+b1101001000xxxxxxxxxxxx "
+b1101001000xxxxxxxxxxxx .
+b110011 /
+1%
+#1070
+0%
+#1080
+b1101001000xxxxxxxxxxx "
+b1101001000xxxxxxxxxxx .
+b110100 /
+1%
+#1090
+0%
+#1100
+b1101001000xxxxxxxxxx "
+b1101001000xxxxxxxxxx .
+b110101 /
+1%
+#1110
+0%
+#1120
+b1101001000xxxxxxxxx "
+b1101001000xxxxxxxxx .
+b110110 /
+1%
+#1130
+0%
+#1140
+b1101001000xxxxxxxx "
+b1101001000xxxxxxxx .
+b110111 /
+1%
+#1150
+0%
+#1160
+b1101001000xxxxxxx "
+b1101001000xxxxxxx .
+b111000 /
+1%
+#1170
+0%
+#1180
+b1101001000xxxxxx "
+b1101001000xxxxxx .
+b111001 /
+1%
+#1190
+0%
+#1200
+b1101001000xxxxx "
+b1101001000xxxxx .
+b111010 /
+1%
+#1210
+0%
+#1220
+b1101001000xxxx "
+b1101001000xxxx .
+b111011 /
+1%
+#1230
+0%
+#1240
+b1101001000xxx "
+b1101001000xxx .
+b111100 /
+1%
+#1250
+0%
+#1260
+b1101001000xx "
+b1101001000xx .
+b111101 /
+1%
+#1270
+0%
+#1280
+b1101001000x "
+b1101001000x .
+b111110 /
+1%
+#1290
+0%
+#1300
+b1101001000 "
+b1101001000 .
+b111111 /
+1%
+#1310
+0%
+#1320
+b110100100 "
+b110100100 .
+b1000000 /
+1%
+#1330
+0%
+#1340
+b11010010 "
+b11010010 .
+b1000001 /
+1!
+1%
+#1350
+0%
+#1360
+b1101001 "
+b1101001 .
+b1000010 /
+0!
+1%
+#1370
+0%
+#1380
+b110100 "
+b110100 .
+b1000011 /
+1%
+#1390
+0%
+#1400
+b11010 "
+b11010 .
+b1000100 /
+1%
+#1410
+0%
+#1420
+b1101 "
+b1101 .
+b1000101 /
+1%
+#1430
+0%
+#1440
+b110 "
+b110 .
+b1000110 /
+1%
+#1450
+0%
+#1460
+b11 "
+b11 .
+b1000111 /
+1%
+#1470
+0%
+#1480
+b1 "
+b1 .
+b1001000 /
+1%
+#1490
+0%
+#1500
+b0 "
+b0 .
+b1001001 /
+1%
+#1510
+0%
+#1520
+b1001010 /
+1%
+#1530
+0%
+#1540
+b1001011 /
+1%
+#1550
+0%
+#1560
+b1001100 /
+1%
+#1570
+0%
+#1580
+b1001101 /
+1%
+#1590
+0%
+#1600
+b1001110 /
+1%
+#1610
+0%
+#1620
+b1001111 /
+1%
+#1630
+0%
+#1640
+b1010000 /
+1%
+#1650
+0%
+#1660
+b1010001 /
+1%
+#1670
+0%
+#1680
+b1010010 /
+1%
+#1690
+0%
+#1700
+b1010011 /
+1%
+#1710
+0%
+#1720
+b1010100 /
+1%
+#1730
+0%
+#1740
+b1010101 /
+1%
+#1750
+0%
+#1760
+b1010110 /
+1%
+#1770
+0%
+#1780
+b1010111 /
+1%
+#1790
+0%
+#1800
+b1011000 /
+1%
+#1810
+0%
+#1820
+b1011001 /
+1%
+#1830
+0%
+#1840
+b1011010 /
+1%
+#1850
+0%
+#1860
+b1011011 /
+1%
+#1870
+0%
+#1880
+b1011100 /
+1%
+#1890
+0%
+#1900
+b1011101 /
+1%
+#1910
+0%
+#1920
+b1011110 /
+1%
+#1930
+0%
+#1940
+b1011111 /
+1%
+#1950
+0%
+#1960
+b1100000 /
+1%
+#1970
+0%
+#1980
+b1100001 /
+1%
+#1990
+0%
+#2000
+b1100010 /
+1%
+#2010
+0%
+#2020
+b1100011 /
+1%
+#2030
+0%
+#2040
+b1100100 /
+1%
+#2050
+0%
+#2060
+b1100101 /
+1%
+#2070
+0%
+#2080
+b1100110 /
+1%
+#2090
+0%
+#2100
+b1100111 /
+1%
+#2110
+0%
+#2120
+b1101000 /
+1%
+#2130
+0%
+#2140
+b1101001 /
+1%
+#2150
+0%
+#2160
+b1101010 /
+1%
+#2170
+0%
+#2180
+b1101011 /
+1%
+#2190
+0%
+#2200
+b1101100 /
+1%
+#2210
+0%
+#2220
+b1101101 /
+1%
+#2230
+0%
+#2240
+b1101110 /
+1%
+#2250
+0%
+#2260
+b1101111 /
+1%
+#2270
+0%
+#2280
+b1110000 /
+1%
+#2290
+0%
+#2300
+b1110001 /
+1%
+#2310
+0%
+#2320
+b1110010 /
+1%
+#2330
+0%
+#2340
+b1110011 /
+1%
+#2350
+0%
+#2360
+b1110100 /
+1%
+#2370
+0%
+#2380
+b1110101 /
+1%
+#2390
+0%
+#2400
+b1110110 /
+1%
+#2410
+0%
+#2420
+b1110111 /
+1%
+#2430
+0%
+#2440
+b1111000 /
+1%
+#2450
+0%
+#2460
+b1111001 /
+1%
+#2470
+0%
+#2480
+b1111010 /
+1%
+#2490
+0%
+#2500
+b1111011 /
+1%
+#2510
+0%
+#2520
+b1111100 /
+1%
+#2530
+0%
+#2540
+b1111101 /
+1%
+#2550
+0%
+#2560
+b1111110 /
+1%
+#2570
+0%
+#2580
+b1111111 /
+1%
+#2590
+0%
+#2600
+b0 /
+1%
+#2610
+0%
+#2620
+b1 /
+1%
+#2630
+0%
+#2640
+b10 /
+1%
+#2650
+0%
+#2660
+b11 /
+1%
+#2670
+0%
+#2680
+b100 /
+1%
+#2690
+0%
+#2700
+b101 /
+1%
+#2710
+0%
+#2720
+b110 /
+1%
+#2730
+0%
+#2740
+b111 /
+1%
+#2750
+0%
+#2760
+b1000 /
+1%
+#2770
+0%
+#2780
+b1001 /
+1%
+#2790
+0%
+#2800
+b1010 /
+1%
+#2810
+0%
+#2820
+b1011 /
+1%
+#2830
+0%
+#2840
+b1100 /
+1%
+#2850
+0%
+#2860
+b1101 /
+1%
+#2870
+0%
+#2880
+b1110 /
+1%
+#2890
+0%
+#2900
+b1111 /
+1%
+#2910
+0%
+#2920
+b10000 /
+1%
+#2930
+0%
+#2940
+b10001 /
+1%
+#2950
+0%
+#2960
+b10010 /
+1%
+#2970
+0%
+#2980
+b10011 /
+1%
+#2990
+0%
+#3000
+b10100 /
+1%
+#3010
+0%
+#3020
+b10101 /
+1%
+#3030
+0%
+#3040
+b10110 /
+1%
+#3050
+0%
+#3060
+b10111 /
+1%
+#3070
+0%
+#3080
+b11000 /
+1%
+#3090
+0%
+#3100
+b11001 /
+1%
+#3110
+0%
+#3120
+b11010 /
+1%
+#3130
+0%
+#3140
+b11011 /
+1%
+#3150
+0%
+#3160
+b11100 /
+1%
+#3170
+0%
+#3180
+b11101 /
+1%
+#3190
+0%
+#3200
+b11110 /
+1%
+#3210
+0%
+#3220
+b11111 /
+1%
+#3230
+0%
+#3240
+b100000 /
+1%
+#3250
+0%
+#3260
+b100001 /
+1%
+#3270
+0%
+#3280
+b100010 /
+1%
+#3290
+0%
+#3300
+b100011 /
+1%
+#3310
+0%
+#3320
+b100100 /
+1%
+#3330
+0%
+#3340
+b100101 /
+1%
+#3350
+0%
+#3360
+b100110 /
+1%
+#3370
+0%
+#3380
+b100111 /
+1%
+#3390
+0%
+#3400
+b101000 /
+1%
+#3410
+0%
+#3420
+b101001 /
+1%
+#3430
+0%
+#3440
+b101010 /
+1%
+#3450
+0%
+#3460
+b101011 /
+1%
+#3470
+0%
+#3480
+b101100 /
+1%
+#3490
+0%
+#3500
+b101101 /
+1%
+#3510
+0%
+#3520
+b101110 /
+1%
+#3530
+0%
+#3540
+b101111 /
+1%
+#3550
+0%
+#3560
+b110000 /
+1%
+#3570
+0%
+#3580
+b110001 /
+1%
+#3590
+0%
+#3600
+b110010 /
+1%
+#3610
+0%
+#3620
+b110011 /
+1%
+#3630
+0%
+#3640
+b110100 /
+1%
+#3650
+0%
+#3660
+b110101 /
+1%
+#3670
+0%
+#3680
+b110110 /
+1%
+#3690
+0%
+#3700
+b110111 /
+1%
+#3710
+0%
+#3720
+b111000 /
+1%
+#3730
+0%
+#3740
+b111001 /
+1%
+#3750
+0%
+#3760
+b111010 /
+1%
+#3770
+0%
+#3780
+b111011 /
+1%
+#3790
+0%
+#3800
+b111100 /
+1%
+#3810
+0%
+#3820
+b111101 /
+1%
+#3830
+0%
+#3840
+b111110 /
+1%
+#3850
+0%
+#3860
+b111111 /
+1%
+#3870
+0%
+#3880
+b1000000 /
+1%
+#3890
+0%
+#3900
+b1000001 /
+1!
+1%
+#3910
+0%
+#3920
+b1000010 /
+0!
+1%
+#3930
+0%
+#3940
+b1000011 /
+1%
+#3950
+0%
+#3960
+b1000100 /
+1%
+#3970
+0%
+#3980
+b1000101 /
+1%
+#3990
+0%
+#4000
+b1000110 /
+1%
+#4010
+0%
+#4020
+b1000111 /
+1%
+#4030
+0%
+#4040
+b1001000 /
+1%
+#4050
+0%
+#4060
+b1001001 /
+1%
+#4070
+0%
+#4080
+b1001010 /
+1%
+#4090
+0%
+#4100
+b1001011 /
+1%
+#4110
+0%
+#4120
+b1001100 /
+1%
+#4130
+0%
+#4140
+b1001101 /
+1%
+#4150
+0%
+#4160
+b1001110 /
+1%
+#4170
+0%
+#4180
+b1001111 /
+1%
+#4190
+0%
+#4200
+b1010000 /
+1%
+#4210
+0%
+#4220
+b1010001 /
+1%
+#4230
+0%
+#4240
+b1010010 /
+1%
+#4250
+0%
+#4260
+b1010011 /
+1%
+#4270
+0%
+#4280
+b1010100 /
+1%
+#4290
+0%
+#4300
+b1010101 /
+1%
+#4310
+0%
+#4320
+b1010110 /
+1%
+#4330
+0%
+#4340
+b1010111 /
+1%
+#4350
+0%
+#4360
+b1011000 /
+1%
+#4370
+0%
+#4380
+b1011001 /
+1%
+#4390
+0%
+#4400
+b1011010 /
+1%
+#4410
+0%
+#4420
+b1011011 /
+1%
+#4430
+0%
+#4440
+b1011100 /
+1%
+#4450
+0%
+#4460
+b1011101 /
+1%
+#4470
+0%
+#4480
+b1011110 /
+1%
+#4490
+0%
+#4500
+b1011111 /
+1%
+#4510
+0%
+#4520
+b1100000 /
+1%
+#4530
+0%
+#4540
+b1100001 /
+1%
+#4550
+0%
+#4560
+b1100010 /
+1%
+#4570
+0%
+#4580
+b1100011 /
+1%
+#4590
+0%
+#4600
+b1100100 /
+1%
+#4610
+0%
+#4620
+b1100101 /
+1%
+#4630
+0%
+#4640
+b1100110 /
+1%
+#4650
+0%
+#4660
+b1100111 /
+1%
+#4670
+0%
+#4680
+b1101000 /
+1%
+#4690
+0%
+#4700
+b1101001 /
+1%
+#4710
+0%
+#4720
+b1101010 /
+1%
+#4730
+0%
+#4740
+b1101011 /
+1%
+#4750
+0%
+#4760
+b1101100 /
+1%
+#4770
+0%
+#4780
+b1101101 /
+1%
+#4790
+0%
+#4800
+b1101110 /
+1%
+#4810
+0%
+#4820
+b1101111 /
+1%
+#4830
+0%
+#4840
+b1110000 /
+1%
+#4850
+0%
+#4860
+b1110001 /
+1%
+#4870
+0%
+#4880
+b1110010 /
+1%
+#4890
+0%
+#4900
+b1110011 /
+1%
+#4910
+0%
+#4920
+b1110100 /
+1%
+#4930
+0%
+#4940
+b1110101 /
+1%
+#4950
+0%
+#4960
+b1110110 /
+1%
+#4970
+0%
+#4980
+b1110111 /
+1%
+#4990
+0%
+#5000
+b1111000 /
+1%
+#5010
+0%
+#5020
+b1111001 /
+1%
+#5030
+0%
+#5040
+b1111010 /
+1%
+#5050
+0%
+#5060
+b1111011 /
+1%
+#5070
+0%
+#5080
+b1111100 /
+1%
+#5090
+0%
+#5100
+b1111101 /
+1%
+#5110
+0%
+#5120
+b1111110 /
+1%
+#5130
+0%
+#5140
+b1111111 /
+1%
+#5150
+0%
+#5160
+b0 /
+1%
+#5170
+0%
+#5180
+b1 /
+1%
+#5190
+0%
+#5200
+b10 /
+1%
+#5210
+0%
+#5220
+b11 /
+1%
+#5230
+0%
+#5240
+b100 /
+1%
+#5250
+0%
+#5260
+b101 /
+1%
+#5270
+0%
+#5280
+b110 /
+1%
+#5290
+0%
+#5300
+b111 /
+1%
+#5310
+0%
+#5320
+b1000 /
+1%
+#5330
+0%
+#5340
+b1001 /
+1%
+#5350
+0%
+#5360
+b1010 /
+1%
+#5370
+0%
+#5380
+b1011 /
+1%
+#5390
+0%
+#5400
+b1100 /
+1%
+#5410
+0%
+#5420
+b1101 /
+1%
+#5430
+0%
+#5440
+b1110 /
+1%
+#5450
+0%
+#5460
+b1111 /
+1%
+#5470
+0%
+#5480
+b10000 /
+1%
+#5490
+0%
+#5500
+b10001 /
+1%
+#5510
+0%
+#5520
+b10010 /
+1%
+#5530
+0%
+#5540
+b10011 /
+1%
+#5550
+0%
+#5560
+b10100 /
+1%
+#5570
+0%
+#5580
+b10101 /
+1%
+#5590
+0%
+#5600
+b10110 /
+1%
+#5610
+0%
+#5620
+b10111 /
+1%
+#5630
+0%
+#5640
+b11000 /
+1%
+#5650
+0%
+#5660
+b11001 /
+1%
+#5670
+0%
+#5680
+b11010 /
+1%
+#5690
+0%
+#5700
+b11011 /
+1%
+#5710
+0%
+#5720
+b11100 /
+1%
+#5730
+0%
+#5740
+b11101 /
+1%
+#5750
+0%
+#5760
+b11110 /
+1%
+#5770
+0%
+#5780
+b11111 /
+1%
+#5790
+0%
+#5800
+b100000 /
+1%
+#5810
+0%
+#5820
+b100001 /
+1%
+#5830
+0%
+#5840
+b100010 /
+1%
+#5850
+0%
+#5860
+b100011 /
+1%
+#5870
+0%
+#5880
+b100100 /
+1%
+#5890
+0%
+#5900
+b100101 /
+1%
+#5910
+0%
+#5920
+b100110 /
+1%
+#5930
+0%
+#5940
+b100111 /
+1%
+#5950
+0%
+#5960
+b101000 /
+1%
+#5970
+0%
+#5980
+b101001 /
+1%
+#5990
+0%
+#6000
+b101010 /
+1%
+#6010
+0%
+#6020
+b101011 /
+1%
+#6030
+0%
+#6040
+b101100 /
+1%
+#6050
+0%
+#6060
+b101101 /
+1%
+#6070
+0%
+#6080
+b101110 /
+1%
+#6090
+0%
+#6100
+b101111 /
+1%
+#6110
+0%
+#6120
+b110000 /
+1%
+#6130
+0%
+#6140
+b110001 /
+1%
+#6150
+0%
+#6160
+b110010 /
+1%
+#6170
+0%
+#6180
+b110011 /
+1%
+#6190
+0%
+#6200
+b110100 /
+1%
+#6210
+0%
+#6220
+b110101 /
+1%
+#6230
+0%
+#6240
+b110110 /
+1%
+#6250
+0%
+#6260
+b110111 /
+1%
+#6270
+0%
+#6280
+b111000 /
+1%
+#6290
+0%
+#6300
+b111001 /
+1%
+#6310
+0%
+#6320
+b111010 /
+1%
+#6330
+0%
+#6340
+b111011 /
+1%
+#6350
+0%
+#6360
+b111100 /
+1%
+#6370
+0%
+#6380
+b111101 /
+1%
+#6390
+0%
+#6400
+b111110 /
+1%
+#6410
+0%
+#6420
+b111111 /
+1%
+#6430
+0%
+#6440
+b1000000 /
+1%
+#6450
+0%
+#6460
+b1000001 /
+1!
+1%
+#6470
+0%
+#6480
+b1000010 /
+0!
+1%
+#6490
+0%
+#6500
+b1000011 /
+1%
+#6510
+0%
+#6520
+b1000100 /
+1%
+#6530
+0%
+#6540
+b1000101 /
+1%
+#6550
+0%
+#6560
+b1000110 /
+1%
+#6570
+0%
+#6580
+b1000111 /
+1%
+#6590
+0%
+#6600
+b1001000 /
+1%
+#6610
+0%
+#6620
+b1001001 /
+1%
+#6630
+0%
+#6640
+b1001010 /
+1%
+#6650
+0%
+#6660
+b1001011 /
+1%
+#6670
+0%
+#6680
+b1001100 /
+1%
+#6690
+0%
+#6700
+b1001101 /
+1%
+#6710
+0%
+#6720
+b1001110 /
+1%
+#6730
+0%
+#6740
+b1001111 /
+1%
+#6750
+0%
+#6760
+b1010000 /
+1%
+#6770
+0%
+#6780
+b1010001 /
+1%
+#6790
+0%
+#6800
+b1010010 /
+1%
+#6810
+0%
+#6820
+b1010011 /
+1%
+#6830
+0%
+#6840
+b1010100 /
+1%
+#6850
+0%
+#6860
+b1010101 /
+1%
+#6870
+0%
+#6880
+b1010110 /
+1%
+#6890
+0%
+#6900
+b1010111 /
+1%
+#6910
+0%
+#6920
+b1011000 /
+1%
+#6930
+0%
+#6940
+b1011001 /
+1%
+#6950
+0%
+#6960
+b1011010 /
+1%
+#6970
+0%
+#6980
+b1011011 /
+1%
+#6990
+0%
+#7000
+b1011100 /
+1%
+#7010
+0%
+#7020
+b1011101 /
+1%
+#7030
+0%
+#7040
+b1011110 /
+1%
+#7050
+0%
+#7060
+b1011111 /
+1%
+#7070
+0%
+#7080
+b1100000 /
+1%
+#7090
+0%
+#7100
+b1100001 /
+1%
+#7110
+0%
+#7120
+b1100010 /
+1%
+#7130
+0%
+#7140
+b1100011 /
+1%
+#7150
+0%
+#7160
+b1100100 /
+1%
+#7170
+0%
+#7180
+b1100101 /
+1%
+#7190
+0%
+#7200
+b1100110 /
+1%
+#7210
+0%
+#7220
+b1100111 /
+1%
+#7230
+0%
+#7240
+b1101000 /
+1%
+#7250
+0%
+#7260
+b1101001 /
+1%
+#7270
+0%
+#7280
+b1101010 /
+1%
+#7290
+0%
+#7300
+b1101011 /
+1%
+#7310
+0%
+#7320
+b1101100 /
+1%
+#7330
+0%
+#7340
+b1101101 /
+1%
+#7350
+0%
+#7360
+b1101110 /
+1%
+#7370
+0%
+#7380
+b1101111 /
+1%
+#7390
+0%
+#7400
+b1110000 /
+1%
+#7410
+0%
+#7420
+b1110001 /
+1%
+#7430
+0%
+#7440
+b1110010 /
+1%
+#7450
+0%
+#7460
+b1110011 /
+1%
+#7470
+0%
+#7480
+b1110100 /
+1%
+#7490
+0%
+#7500
+b1110101 /
+1%
+#7510
+0%
+#7520
+b1110110 /
+1%
+#7530
+0%
+#7540
+b1110111 /
+1%
+#7550
+0%
+#7560
+b1111000 /
+1%
+#7570
+0%
+#7580
+b1111001 /
+1%
+#7590
+0%
+#7600
+b1111010 /
+1%
+#7610
+0%
+#7620
+b1111011 /
+1%
+#7630
+0%
+#7640
+b1111100 /
+1%
+#7650
+0%
+#7660
+b1111101 /
+1%
+#7670
+0%
+#7680
+b1111110 /
+1%
+#7690
+0%
+#7700
+b1111111 /
+1%
+#7710
+0%
+#7720
+b0 /
+1%
+#7730
+0%
+#7740
+b1 /
+1%
+#7750
+0%
+#7760
+b10 /
+1%
+#7770
+0%
+#7780
+b11 /
+1%
+#7790
+0%
+#7800
+b100 /
+1%
+#7810
+0%
+#7820
+b101 /
+1%
+#7830
+0%
+#7840
+b110 /
+1%
+#7850
+0%
+#7860
+b111 /
+1%
+#7870
+0%
+#7880
+b1000 /
+1%
+#7890
+0%
+#7900
+b1001 /
+1%
+#7910
+0%
+#7920
+b1010 /
+1%
+#7930
+0%
+#7940
+b1011 /
+1%
+#7950
+0%
+#7960
+b1100 /
+1%
+#7970
+0%
+#7980
+b1101 /
+1%
+#7990
+0%
+#8000
+b1110 /
+1%
+#8010
+0%
+#8020
+b1111 /
+1%
+#8030
+0%
+#8040
+b10000 /
+1%
+#8050
+0%
+#8060
+b10001 /
+1%
+#8070
+0%
+#8080
+b10010 /
+1%
+#8090
+0%
+#8100
+b10011 /
+1%
+#8110
+0%
+#8120
+b10100 /
+1%
+#8130
+0%
+#8140
+b10101 /
+1%
+#8150
+0%
+#8160
+b10110 /
+1%
+#8170
+0%
+#8180
+b10111 /
+1%
+#8190
+0%
+#8200
+b11000 /
+1%
+#8210
+0%
+#8220
+b11001 /
+1%
+#8230
+0%
+#8240
+b11010 /
+1%
+#8250
+0%
+#8260
+b11011 /
+1%
+#8270
+0%
+#8280
+b11100 /
+1%
+#8290
+0%
+#8300
+b11101 /
+1%
+#8310
+0%
+#8320
+b11110 /
+1%
+#8330
+0%
+#8340
+b11111 /
+1%
+#8350
+0%
+#8360
+b100000 /
+1%
+#8370
+0%
+#8380
+b100001 /
+1%
+#8390
+0%
+#8400
+b100010 /
+1%
+#8410
+0%
+#8420
+b100011 /
+1%
+#8430
+0%
+#8440
+b100100 /
+1%
+#8450
+0%
+#8460
+b100101 /
+1%
+#8470
+0%
+#8480
+b100110 /
+1%
+#8490
+0%
+#8500
+b100111 /
+1%
+#8510
+0%
+#8520
+b101000 /
+1%
+#8530
+0%
+#8540
+b101001 /
+1%
+#8550
+0%
+#8560
+b101010 /
+1%
+#8570
+0%
+#8580
+b101011 /
+1%
+#8590
+0%
+#8600
+b101100 /
+1%
+#8610
+0%
+#8620
+b101101 /
+1%
+#8630
+0%
+#8640
+b101110 /
+1%
+#8650
+0%
+#8660
+b101111 /
+1%
+#8670
+0%
+#8680
+b110000 /
+1%
+#8690
+0%
+#8700
+b110001 /
+1%
+#8710
+0%
+#8720
+b110010 /
+1%
+#8730
+0%
+#8740
+b110011 /
+1%
+#8750
+0%
+#8760
+b110100 /
+1%
+#8770
+0%
+#8780
+b110101 /
+1%
+#8790
+0%
+#8800
+b110110 /
+1%
+#8810
+0%
+#8820
+b110111 /
+1%
+#8830
+0%
+#8840
+b111000 /
+1%
+#8850
+0%
+#8860
+b111001 /
+1%
+#8870
+0%
+#8880
+b111010 /
+1%
+#8890
+0%
+#8900
+b111011 /
+1%
+#8910
+0%
+#8920
+b111100 /
+1%
+#8930
+0%
+#8940
+b111101 /
+1%
+#8950
+0%
+#8960
+b111110 /
+1%
+#8970
+0%
+#8980
+b111111 /
+1%
+#8990
+0%
+#9000
+b1000000 /
+1%
+#9010
+0%
+#9020
+b1000001 /
+1!
+1%
+#9030
+0%
+#9040
+b1000010 /
+0!
+1%
+#9050
+0%
+#9060
+b1000011 /
+1%
+#9070
+0%
+#9080
+b1000100 /
+1%
+#9090
+0%
+#9100
+b1000101 /
+1%
+#9110
+0%
+#9120
+b1000110 /
+1%
+#9130
+0%
+#9140
+b1000111 /
+1%
+#9150
+0%
+#9160
+b1001000 /
+1%
+#9170
+0%
+#9180
+b1001001 /
+1%
+#9190
+0%
+#9200
+b1001010 /
+1%
+#9210
+0%
+#9220
+b1001011 /
+1%
+#9230
+0%
+#9240
+b1001100 /
+1%
+#9250
+0%
+#9260
+b1001101 /
+1%
+#9270
+0%
+#9280
+b1001110 /
+1%
+#9290
+0%
+#9300
+b1001111 /
+1%
+#9310
+0%
+#9320
+b1010000 /
+1%
+#9330
+0%
+#9340
+b1010001 /
+1%
+#9350
+0%
+#9360
+b1010010 /
+1%
+#9370
+0%
+#9380
+b1010011 /
+1%
+#9390
+0%
+#9400
+b1010100 /
+1%
+#9410
+0%
+#9420
+b1010101 /
+1%
+#9430
+0%
+#9440
+b1010110 /
+1%
+#9450
+0%
+#9460
+b1010111 /
+1%
+#9470
+0%
+#9480
+b1011000 /
+1%
+#9490
+0%
+#9500
+b1011001 /
+1%
+#9510
+0%
+#9520
+b1011010 /
+1%
+#9530
+0%
+#9540
+b1011011 /
+1%
+#9550
+0%
+#9560
+b1011100 /
+1%
+#9570
+0%
+#9580
+b1011101 /
+1%
+#9590
+0%
+#9600
+b1011110 /
+1%
+#9610
+0%
+#9620
+b1011111 /
+1%
+#9630
+0%
+#9640
+b1100000 /
+1%
+#9650
+0%
+#9660
+b1100001 /
+1%
+#9670
+0%
+#9680
+b1100010 /
+1%
+#9690
+0%
+#9700
+b1100011 /
+1%
+#9710
+0%
+#9720
+b1100100 /
+1%
+#9730
+0%
+#9740
+b1100101 /
+1%
+#9750
+0%
+#9760
+b1100110 /
+1%
+#9770
+0%
+#9780
+b1100111 /
+1%
+#9790
+0%
+#9800
+b1101000 /
+1%
+#9810
+0%
+#9820
+b1101001 /
+1%
+#9830
+0%
+#9840
+b1101010 /
+1%
+#9850
+0%
+#9860
+b1101011 /
+1%
+#9870
+0%
+#9880
+b1101100 /
+1%
+#9890
+0%
+#9900
+b1101101 /
+1%
+#9910
+0%
+#9920
+b1101110 /
+1%
+#9930
+0%
+#9940
+b1101111 /
+1%
+#9950
+0%
+#9960
+b1110000 /
+1%
+#9970
+0%
+#9980
+b1110001 /
+1%
+#9990
+0%
+#10000
+b1110010 /
+1%
+#10010
+0%
+#10020
+b1110011 /
+1%
+#10030
+0%
+#10040
+b1110100 /
+1%
+#10050
+0%
+#10060
+b1110101 /
+1%
+#10070
+0%
+#10080
+b1110110 /
+1%
+#10090
+0%
+#10100
+b1110111 /
+1%
+#10110
+0%
+#10120
+b1111000 /
+1%
+#10130
+0%
+#10140
+b1111001 /
+1%
+#10150
+0%

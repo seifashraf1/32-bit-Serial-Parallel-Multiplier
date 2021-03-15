@@ -3,6 +3,9 @@
 
 `timescale 1ns/1ns
 
+`include "CSADD.v"
+`include "TCMP.v"
+
 module Multiplier (
       input [31:0] MP,
       input [31:0] MC,
@@ -75,25 +78,7 @@ module Multiplier (
         
         
     end
-    
-    
-    always @( posedge start, posedge clk or posedge rst)begin
-        if (rst)
-        count<=0; 
-        else 
-        count<=count+1; 
 
-        case (count)
-        64: begin done=1; end
-        default: done=0; 
-        endcase
-
-
-    end
-
-    
-    
-    
     genvar i;
     
     generate
@@ -111,22 +96,27 @@ module Multiplier (
         CSADD csadd1 (.X(XY[0]), .Y(PP[1]), .clk(clk), .rst(rst), .sum(eP));
     
     endgenerate
-    
-    
-    
-    always @(posedge clk)begin
-    
-    P <= {eP,P[63:1]};
+
+        
+    always @( posedge start, posedge clk or posedge rst)begin
+        if (rst) begin
+        P <= 0;
+        count<=0; 
+        end
+        else 
+        count<=count+1; 
+
+        case (count)
+        64: begin done=1; end
+        default: done=0; 
+        endcase
+
+        P <= {eP,P[63:1]};
       
-    if (rst) begin 
-      P <= 0;
-    end 
-       
-    
-    end
-    
-    
-    
-    
-    
+        /*if (rst) begin 
+            P <= 0;
+        end  */   
+
+    end    
+ 
 endmodule
