@@ -1,6 +1,14 @@
-// file: Multiplier _tb.v
-// author: @seifashraf1
-// Testbench for Multiplier
+/*******************************************************************
+*
+* Module: Multiplier_tb.v
+* Project: 32-bit signed Serial-Parallel Multiplier (SPM)
+* Author: Seif Ashraf - seifeldinashraf11@aucegypt.edu
+* Description: SPM Multiplier testbench 
+*
+* Change history: 03/09/21 –Module Created
+                  03/16/21 –Edited the code to meet coding guidelines
+*
+**********************************************************************/
 
 
 `timescale 1ns/1ns

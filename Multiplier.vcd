@@ -1,5 +1,5 @@
 $date
-	Mon Mar 15 18:59:18 2021
+	Tue Mar 16 18:24:46 2021
 $end
 $version
 	Icarus Verilog
@@ -24,9 +24,9 @@ $var wire 1 ' start $end
 $var wire 1 * eP $end
 $var wire 32 + XY [31:0] $end
 $var wire 31 , PP [31:1] $end
-$var reg 32 - MP_stable [31:0] $end
+$var reg 32 - MP_Copy [31:0] $end
 $var reg 64 . P [63:0] $end
-$var reg 7 / count [6:0] $end
+$var reg 7 / bitsCount [6:0] $end
 $var reg 1 ! done $end
 $scope begin genblk1[1] $end
 $scope module csadd $end
@@ -1217,7 +1217,7 @@ b111 (
 b1111 $
 b111 #
 bx "
-0!
+1!
 $end
 #10
 0%
@@ -1390,6 +1390,7 @@ bx .
 0%
 1&
 #60
+0!
 b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx "
 b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx .
 1%
@@ -1913,8 +1914,8 @@ b1000000 /
 #1340
 b11010010 "
 b11010010 .
-b1000001 /
 1!
+b1000001 /
 1%
 #1350
 0%
@@ -1922,7 +1923,6 @@ b1000001 /
 b1101001 "
 b1101001 .
 b1000010 /
-0!
 1%
 #1370
 0%
@@ -2251,6 +2251,7 @@ b0 /
 #2610
 0%
 #2620
+0!
 b1 /
 1%
 #2630
@@ -2571,14 +2572,13 @@ b1000000 /
 #3890
 0%
 #3900
-b1000001 /
 1!
+b1000001 /
 1%
 #3910
 0%
 #3920
 b1000010 /
-0!
 1%
 #3930
 0%
@@ -2893,6 +2893,7 @@ b0 /
 #5170
 0%
 #5180
+0!
 b1 /
 1%
 #5190
@@ -3213,14 +3214,13 @@ b1000000 /
 #6450
 0%
 #6460
-b1000001 /
 1!
+b1000001 /
 1%
 #6470
 0%
 #6480
 b1000010 /
-0!
 1%
 #6490
 0%
@@ -3535,6 +3535,7 @@ b0 /
 #7730
 0%
 #7740
+0!
 b1 /
 1%
 #7750
@@ -3855,14 +3856,13 @@ b1000000 /
 #9010
 0%
 #9020
-b1000001 /
 1!
+b1000001 /
 1%
 #9030
 0%
 #9040
 b1000010 /
-0!
 1%
 #9050
 0%

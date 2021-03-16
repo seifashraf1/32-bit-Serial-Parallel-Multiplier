@@ -1,5 +1,15 @@
-// file: CSADD.v
-// author: @seifashraf1
+/*******************************************************************
+*
+* Module: CSADD.v
+* Project: 32-bit signed Serial-Parallel Multiplier (SPM)
+* Author: Seif Ashraf - seifeldinashraf11@aucegypt.edu
+* Description: A bit-serial adder (shown below) can be used to add 2 binary numbers provided serially (one bit from each number every clock cycle) 
+               to produce a serial sum (also produced one bit every clock cycle). 
+*
+* Change history: 03/09/21 –Module Created
+                  03/16/21 –Edited the code to meet coding guidelines
+*
+**********************************************************************/
 
 `include "fullAdder.v"
 
