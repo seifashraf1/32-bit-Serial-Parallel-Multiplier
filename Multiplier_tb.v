@@ -16,8 +16,8 @@
 module Multiplier_tb;
 
 	//Inputs
-	reg [31:0] MP;
-	reg [31:0] MC;
+	reg signed [31:0] MP;
+	reg signed [31:0] MC;
 	reg start;
 	reg clk;
 	reg rst;
@@ -39,18 +39,18 @@ module Multiplier_tb;
 		.done(done)
 	);
 
-  // reg [63:0] goldenProd;
-  
-  
-  // always @ (posedge start)begin
-  //     goldenProd = MP*MC;
-  // end  
-  
-  // wire error;
-  // assign error = (goldenProd != P);
-  
-  // integer i,j;
+  reg [63:0] goldenProd;
+  wire error;
 
+  integer i,j;
+  
+  
+  always @ (posedge start)begin
+    goldenProd = MP*MC;
+  end  
+  
+  assign error = (goldenProd != P);
+  
   initial clk=1;
     always begin
         #10
@@ -62,74 +62,47 @@ module Multiplier_tb;
  	$dumpvars(0,Multiplier_tb);
   end 
 
-// event reset_trigger; 
-// event reset_done; 
+event reset_trigger; 
+event reset_done; 
 
+initial begin 
+	#10 -> reset_trigger; 
+end
 
- 
+always @(reset_trigger) begin
+	 @(negedge clk);
+   	 rst=1; 
+     start=0; 
+     @(negedge clk);
+   	 rst=0;  
+     start=1; 
+end
 
-
-
-// initial begin 
-// 	#1 -> reset_trigger; 
-// end
-
-// always @(negedge done) begin
-// 	-> reset_trigger;
-// end
-
-// always @(reset_trigger) begin
-// 	 @(negedge clk);
-//    	 rst=1; start=1; 
-//      @(negedge clk);
-//    	 rst=0;  start=0; 
-// end
-
+//change the number to 4294967295 to loop over all numbers that can be stored in 32 bits if you want
   initial begin
-	start = 0;
-  rst = 0;
-  MP = 15;
-  MC = 7;
-  #50
-  rst = 1;
-  #20
-  start = 1;
-  rst = 0;
-  #80
-  start = 0;
+
+  for(i=1;i<10;i=i+1)begin		
+    for(j=1;j<10;j=j+1)begin
+    	#(100) ->reset_trigger;
+        MP=i;
+        MC=j;
+        start=1;
+        @(posedge done);
+        if(error)begin
+          $display("Error!! MP: %d, MC: %d, Product: %d",MP, MC, P);
+          $finish;
+        end
+        else begin
+        	$display("MP: %d, MC: %d, Product: %d", MP, MC, P);
+        end
+    end
+  end
+
+  $display("Success");
 
   #10000 $finish;
 
-
-	//Inputs initialization
-	// 	rst=0; start=0;
-  //   MP=15; MC=7; 
-	// #50 rst=1;
-	// #20 start=1;rst=0;
-	// #80 start = 0;
-//2147483648
-      /*for (i=1; i<10; i=i+1) begin
-            for (j=1; j<10; j=j+1) begin
-                  // start = 0;
-                  // rst = 0;
-                  MP = i;
-                  MC = j;
-                  #100000000000
-                  // rst = 1;
-                  // #10
-                  // start = 1;
-                  // rst = 0;
-                  // #80
-                  if (error) begin
-                    $display("Error: i=%d j=%d prod=%d\n", i, j, goldenProd);
-                    $finish; 
-                  end 
-                  
-            end 
-      end*/
-    
-    
-    $display("Success");
+  
 
 	end
 

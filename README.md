@@ -16,5 +16,7 @@ Variables Naming Convention:
 - All signal names, variable names, and port names are in lower cases.
 - All parameter names are in capitals: e.g. STATE_WAIT
 
-#NOTE: 
-In the screenshot please note that the result of the multiplication is present after the +ve edge of the done signal by one clock cycle it gets updated.
+# NOTE: 
+
+* In the screenshot please note that the result of the multiplication is present wite the +ve edge of the done signal.
+* The module supports negative numbers multiplication done by doing input sign extension.

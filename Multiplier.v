@@ -35,7 +35,7 @@ module Multiplier (
     
     
     always @(posedge start) begin 
-        MP_Copy <= MP;     
+        MP_Copy <= {{32{MP[31]}}, MP[31:0]};     
         bitsCount <= 1; 
         
     end
@@ -79,22 +79,13 @@ module Multiplier (
         else 
             bitsCount<=bitsCount+1; 
 
-        /*case (bitsCount)
-        64: begin done=1; end
-        default: done=0; 
-        endcase*/
-
-        if (bitsCount<=63) 
+        if (bitsCount<=64) 
             done<=0;
         else  
             done<=1;
             
 
         P <= {eP,P[63:1]};
-      
-        /*if (rst) begin 
-            P <= 0;
-        end  */   
 
     end    
  
